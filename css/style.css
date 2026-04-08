@@ -32,3 +32,31 @@ p{
 .para{
     color: bisque;
 }
+.head_font{
+    font-size: larger;
+}
+.head2{
+    color: rgb(75, 62, 86);
+}
+.t_format_upper{
+    text-transform: uppercase;
+    color: rgb(91, 91, 115);
+    text-decoration: overline;
+}
+.t_format_lower{
+    text-transform: lowercase;
+    color: rgb(91, 91, 115);
+    text-decoration: underline;
+}
+.t_format_capatalize{
+    text-transform: capitalize;
+    color: rgb(91, 91, 115);
+    text-decoration: line-through overline underline;
+}
+.t_center{
+    text-align: center;
+
+}
+.t_indent{
+text-indent: 200px;
+}
