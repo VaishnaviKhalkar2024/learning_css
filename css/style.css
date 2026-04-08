@@ -7,3 +7,28 @@ p{
     color: rgb(196, 163, 124);
     font-size: larger;
 }
+.heading1{
+    color: rgb(173, 136, 91);
+    background-color: aliceblue;
+}
+.heading2{
+    color: rgb(49, 82, 71);
+    background-color: rgb(187, 206, 206);
+
+}
+.paragraph1{
+    font-size: medium;
+    color: rgb(28, 54, 54);
+    background-color: rgb(216, 243, 234);
+    font-style: italic;
+}
+#head1{
+    color: rgb(84, 84, 105);
+    background-color: rgb(202, 197, 207);
+}
+#para{
+    color: rgb(15, 98, 70);
+}
+.para{
+    color: bisque;
+}
