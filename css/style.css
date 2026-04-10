@@ -60,3 +60,50 @@ p{
 .t_indent{
 text-indent: 200px;
 }
+.letter_space{
+    letter-spacing: 5px;
+}
+.para_line_height{
+    line-height: 25px;
+}
+.word_space{
+    word-spacing: 50px;
+}
+.t_shadow{
+    color: rgb(88, 31, 85);
+    text-shadow: 2px 2px 4px rgb(62, 159, 136);
+
+}
+.t_shadow1{
+    color: rgb(50, 107, 141);
+    text-shadow: 10px 0px 0px rgb(160, 174, 171);
+}
+.t_shadow2{
+    color: rgb(84, 16, 16);
+    text-shadow: 0px 4px 0px rgb(130, 96, 104);
+
+}
+.t_shadow3{
+    color: rgb(18, 99, 81);
+    text-shadow: 8px 0px 4px rgb(79, 83, 82);
+
+}
+.t_shadow4{
+    color: rgb(129, 134, 36);
+    text-shadow: 0px 8px 10px rgb(79, 83, 82);
+
+}
+.img_shadow{
+box-shadow: 8px 8px 8px rgb(131, 33, 101);
+}
+.img_shadow1{
+box-shadow: 8px 8px 5px rgb(88, 39, 48);
+}
+.img_shadow2{
+box-shadow: 8px 8px 8px rgb(39, 152, 53);
+}
+.img_shadow3{
+box-shadow: 8px 8px 10px rgb(9, 75, 116);
+}
+
+
