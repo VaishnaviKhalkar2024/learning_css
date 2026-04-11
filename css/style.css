@@ -106,4 +106,109 @@ box-shadow: 8px 8px 8px rgb(39, 152, 53);
 box-shadow: 8px 8px 10px rgb(9, 75, 116);
 }
 
+.img_border{
+    border: 2px solid rgb(101, 94, 94);
+    border-radius: 15px;
+}
+.img_border1{
+    border: 2px dashed rgb(50, 39, 132);
+    border-bottom-right-radius: 25px;
+}
+.img_border2{
+    border: 2px dotted rgb(87, 105, 54);
+     border-bottom-left-radius: 25px;
+}
+.img_border3{
+    border: 2px groove rgb(37, 140, 116);
+     border-top-right-radius:40px;
+     
+}
+
+.img_border4{
+    border: 2px double rgb(125, 48, 124);
+    
+     border-top-left-radius: 20px;
+}
+.b_model{
+    border:1px solid black;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin: 20px 50px;
+}
+.b_model1{
+    border:1px solid black;
+    padding: 40px;
+    background-color: black;
+    color: white;
+    margin: 50px 20px;
+    text-indent: 20px;
+}
+.b_model2{
+    border:1px solid black;
+    padding: 30px 40px;
+    background-color: black;
+    color: white;
+    margin: 50px  30px;
+}
+img{
+    border: 1px solid;
+     border-radius: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    box-shadow:  2px 8px 10px black;
+}
+body{
+    background-color: antiquewhite;
+}
+.f_family{
+    font-family: sans-serif;
+    background-color: black;
+    padding: 20px;
+}
+.f_family1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    padding: 20px;
+    line-height: 25px;
+}
+.f_family1{
+    font-family: monospace;
+    background-color: black;
+    padding: 20px;
+    line-height: 25px;
+}
+.f_family2{
+    font-family: cursive;
+    background-color: black;
+    padding: 20px;
+    line-height: 25px;
+}
+.font_weight{
+    font-weight: 800px;
+}
+.bgcolor{
+   
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    background: linear-gradient(to right,pink, azure);
+}
+.bglinear{
+    height: 300px;
+    background: linear-gradient( to right ,pink ,azure, rgb(105, 30, 30),pink);
+    margin-top: 10px;
+}
+.bgradial{
+    background: radial-gradient(circle at left ,pink, azure);
+    height:400px;
+    margin-top: 10px;
+}
+.bconic{
+    background:conic-gradient(from 90deg,black,orange);
+    height: 500px;
+    margin-top: 10px;
+}
+
+
 
