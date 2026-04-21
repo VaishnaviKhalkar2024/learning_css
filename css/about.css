@@ -1,0 +1,127 @@
+.container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    margin-bottom: 10px;
+    
+
+}
+
+h1{
+    text-align: center;
+    border-bottom: 2px solid #d32f2f;
+    font-family: cursive;
+
+}
+h1:hover{
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 25px;
+   
+}
+.info
+{
+    text-align: center;
+    padding: 20px 20px;
+    margin:0;
+}
+
+.menu-info
+{
+    display: flex;
+    flex-direction: row;
+    background-color:#fff;
+    
+    margin: 10px 0;
+    margin-bottom: 10px;
+    justify-content: space-around;
+   align-items: center;
+}
+
+.header1{
+    border:  0px solid  black;
+    padding: 5px 10px;
+    margin: 10px;
+    align-items: center;
+    border-radius:25px ;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.img{
+    border-radius: 5px;
+    padding:20px;
+    border:  0px solid;
+    height:400px;
+    width:500px;
+
+}
+
+/* Mobile Device */
+@media screen and (max-width: 500px)
+{
+.img-container{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color:#fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 10px 0;
+        margin-bottom: 10px;
+    
+}   
+.img-homepage{
+    
+    width:400px;
+    border-radius: 10px;
+    margin:30px;
+    height: 200px;
+    border: 2px solid rgb(197, 77, 43);
+
+}
+.img-info
+{
+    text-align: center;
+    padding: 0 20px;
+    margin:0;
+    justify-content: start;
+}
+.btn{
+    padding: 5px 5px;
+    margin-bottom: 0 20px;
+    border-radius: 10px;  
+} 
+.menu-info
+{
+    display: flex;
+    flex-direction: row;
+   align-items: start;
+   font-size: 10px;
+}
+.details{
+    width:100px;
+    margin:10px;
+    height:50px ;
+    margin-left: 35px;
+    
+}
+.header1{
+    
+    padding: 5px 10px;
+    width:150px;
+    align-items:start;
+    font-size: 10px;
+    
+}
+p{
+    font-size: small;
+}
+}
